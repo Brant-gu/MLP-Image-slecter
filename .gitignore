@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# MLP data (batches are generated locally)
+batches/
+batch_*/
+
+# Output files
+*.npz
+*.pth
+*.npy
+*.txt
+
+# Claude
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
